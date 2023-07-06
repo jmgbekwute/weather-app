@@ -1,0 +1,82 @@
+.mb {
+  position: relative;
+  top: 10px;
+}
+.btn-primary {
+  transition: 200ms ease-in-out;
+}
+.btn-primary:hover {
+  color: white;
+  background: black;
+}
+.current-location-button {
+  transition: 200ms ease-in-out;
+}
+.current-location-button:hover {
+  color: white;
+  background: black;
+}
+.weather-icon {
+  font-size: 50px;
+}
+.city {
+  font-family: Rubik;
+}
+.date {
+  font-family: Rubik;
+}
+.humidity {
+  font-family: Rubik;
+  font-size: 16px;
+}
+.wind {
+  font-family: Rubik;
+  font-size: 16px;
+}
+.temperature {
+  font-family: Rubik;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+.unit-cel {
+  font-size: 18px;
+  text-align: center;
+  font-weight: lighter;
+}
+.unit-far {
+  font-size: 18px;
+  text-align: center;
+  font-weight: lighter;
+}
+.card-title {
+  font-family: Rubik;
+  font-size: 20px;
+  text-align: center;
+}
+.card-temp {
+  font-family: Rubik;
+  font-size: 16px;
+  text-align: center;
+  line-height: 50px;
+}
+.fa-sun {
+  font-size: 26px;
+  text-align: center;
+  display: block;
+}
+.fa-cloud {
+  font-size: 26px;
+  text-align: center;
+  display: block;
+}
+.fa-cloud-sun-rain {
+  font-size: 26px;
+  text-align: center;
+  display: block;
+}
+.fa-cloud-rain {
+  font-size: 26px;
+  text-align: center;
+  display: block;
+}

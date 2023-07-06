@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script src="https://kit.fontawesome.com/cc534f3eb0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;600&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<link ref="stylesheet" href="/src/styles.css">
+  </head>
+<style>
+</style>
+  <body>
+    <div class="container">
+      <form id="search-form">
+        <div class="search-form" >
+          <input type="text" placeholder="Enter city" id="city-input"/>
+          <button type="submit" class="btn-primary" id="btn-primary">🔍 Search</button>
+          <button type="submit" class="current-location-button" id="current-location-button">Current Location</button>
+      </form>
+      <br>
+      </br>
+      <div class="row justify-content-around">
+          <div class="col-4">
+              <div class="city">
+                  <h1 id="city">
+                  </h1>
+                </div>
+                <div class="date">
+                  <h2 id="date">
+                  </h2>
+                </div>
+                <div class="humidity"> 
+                  <h3 id="humidity">Humidity:
+                  </h3>
+                </div>
+                <div class="wind">
+                  <h3 id="wind">Wind Speed:</h3>
+                </div>
+          <div class="col-4">
+              <P class="weather-icon">🌤</p>
+                <span class="temperature" id="temperature"></span>
+                <span <a href="#" id ="celcius-link"></a>°C /</span> 
+                <span <a href="#" id ="fahrenheit-link"></a>°F</span>    
+          </div>
+        </div>
+      <br>
+      </br>
+      <div class="row">
+          <div class="col-sm-2 mb-3 mb-sm-0">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Sun</h5>
+                <i class="fa-solid fa-sun"></i>
+                <h5 class="card-temp">21°/13°</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Mon</h5>
+                <i class="fa-solid fa-cloud"></i>
+                <h5 class="card-temp">19°/10°</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Tue</h5>
+                  <i class="fa-solid fa-cloud-sun-rain"></i>
+                  <h5 class="card-temp">18°/9°</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Wed</h5>
+                    <i class="fa-solid fa-cloud-rain"></i>
+                    <h5 class="card-temp">18°/10°</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Thu</h5>
+                      <i class="fa-solid fa-cloud"></i>
+                      <h5 class="card-temp">20°/11°</h5>
+                    </div>
+                  </div>
+                </div>
+        </div>
+    </div>
+      <script src="src/index.js"></script>
+    </div>
+  </body>
+</html>
+
