@@ -83,4 +83,4 @@ celsiusLink.addEventListener("click", displayCelsiusTemperatuer);
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 
-search("New York");
+search("Gosford");
