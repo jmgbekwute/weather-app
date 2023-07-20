@@ -68,6 +68,7 @@ function getForecast(coordinates) {
   let apiKey = `5c628835b79ccf47adfe74070toa0cae`;
   let forecastApiURL = `https://api.shecodes.io/weather/v1/forecast?lon=${lon}&lat=${lat}&key=${apiKey}&units=metric`;
   axios.get(forecastApiURL).then(displayForecast);
+  getForecast(response.data.coordinates);
 }
 
 function displayTemperature(response) {
