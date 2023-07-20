@@ -37,7 +37,7 @@ li:first-letter {
 .weather-app {
   padding: 20px;
   border: 1px solid #dadde1;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .overview {
@@ -46,8 +46,8 @@ li:first-letter {
 
 .weather-temperature img {
   margin-right: 5px;
-  height: 64px;
-  width: 64px;
+  height: 100px;
+  width: 100px;
 }
 
 .weather-temperature strong {
@@ -89,4 +89,8 @@ li:first-letter {
 
 .weather-forecast-temperature-min {
   opacity: 0.5;
+}
+
+.source-code {
+  margin-top: 15px;
 }
